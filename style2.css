@@ -1,0 +1,42 @@
+legend{
+    background-color: teal;
+    border:2px solid pink;
+    width:50%;
+    text-align:center;
+    margin:auto;
+    border-radius:0px 10px 0px 10px;
+    box-shadow:1px 2px 3px black;
+}
+div{
+    width:100%;
+    padding:1rem;
+}
+label{
+    background: linear-gradient(54deg,rgb(88,99,77),#0099);
+    width:100%;
+    border:1px dotted palevioletred;
+    border-radius:.7rem;
+   
+}
+input{
+    outline:none;
+}
+.details{
+    background-color:red;
+    border-radius: 5rem;
+    width:100px;
+    margin:auto;
+    margin-top:1rem;
+    padding-top: 1rem;
+    text-align:center;
+    
+    
+}
+fieldset{
+    height:50%;
+    background-color:yellow ;
+    
+    border:1px solid green;
+    border-radius:1rem;
+    
+}
