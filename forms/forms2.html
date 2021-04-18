@@ -1,0 +1,106 @@
+<html>
+    <head><title>form types</title>
+    <style>
+        fieldset{
+            background: linear-gradient(40deg,rgb(125, 101, 128),#abcd);
+            border:1px dotted crimson;
+            border-radius:.7rem;
+            width:50%;
+            margin:auto;
+        }
+        legend{
+            text-align:center;
+            background-color:black;
+            color:white;
+            border:1px solid green;
+            border-radius:0.2rem 0.2rem 0.3rem 0.3rem;
+            box-shadow: 1px 1px 1px red;
+        }
+        div{
+            padding:1rem;
+            margin:.5rem;
+            
+        }
+        label{
+            color:greenyellow;
+            background-color:rgb(94, 88, 85);
+            border-radius:.5rem;
+            padding:.5rem;
+            margin:.5rem;
+        }
+        input,select{
+            height:30px;
+            outline:none;
+            
+            
+        }
+        textarea,select{
+            width:200px;
+            border-radius:.4rem;
+            
+        }
+        button{
+            width:100px;
+            height:30px;
+            border-radius:.7rem;
+            margin:1rem;
+            
+        }
+        
+
+    </style>
+    </head>
+    <body>
+        <fieldset>
+            <legend><marquee scrollamount="3">Registration form</marquee></legend>
+            <form>
+                <div>
+                <label>first name</label>
+                <input type="text">
+                <label>last name</label>
+                <input type="text">
+                </div>
+                <div>
+                    <label>email</label>
+                    <input type="email">
+                </div>
+                <div>
+                    <label>D.O.B</label>
+                    <input type="date" >
+                </div>
+                <div>
+                    <label>Gender</label>
+                    <input type="radio"  name="gender">male 
+                    <input type="radio"  name="gender">female
+                </div>
+                <div>
+                    <label>Languages</label>
+                    <input type="checkbox" name="languages" >Java Script
+                    <input type="checkbox" name="languages" >Type Script
+                    <input type="checkbox" name="languages" >React Js
+                    <input type="checkbox" name="languages" >Vue Js
+                </div>
+                <div>
+                    <label>Department</label>
+                    <select name="department">
+                        <option >technical</option>
+                        <option >non-technical</option>
+                        <option>others</option>
+                    </select>
+                    
+                </div>
+                <div>
+                    <label>Address</label>
+                    <textarea rows="10px" cols="20px">
+                       
+                    </textarea>
+                </div>
+                <center>
+                <button>Register</button>
+                <button>cancel</button>
+                </center>
+            </form>
+        </fieldset>
+      
+    </body>
+</html>
