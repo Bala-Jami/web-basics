@@ -1,0 +1,25 @@
+h2{
+    text-align:center;
+}
+.two,.three,.four,h3{
+    word-spacing: .5rem;
+}
+#one{
+    width:20%;
+    text-align:justify;
+    float:left;
+    margin-right:5rem;
+    margin-left:7rem
+}
+#two{
+    width:20%;
+    text-align:justify;
+    float:left;
+    margin-right:5rem
+}
+#three{
+    width:20%;
+    text-align:justify;
+    float:left;
+    margin-right:7rem;
+}

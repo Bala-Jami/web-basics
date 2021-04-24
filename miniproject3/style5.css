@@ -1,0 +1,10 @@
+h2{
+    text-align:center
+}
+#one,#two,#three{
+    width:20%;
+    text-align: justify;
+    float:left;
+    margin-right:4rem;
+    margin-left:4rem
+}
